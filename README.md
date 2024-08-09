@@ -118,6 +118,7 @@ Turn your full node into a validator
 Automatic Installation
 source <(curl -s https://itrocket.net/api/namada/autoinstall/)
 Security
+```
 To protect you keys please don`t share your privkey, mnemonic and follow basic security rules
 
 Set up ssh keys for authentication
@@ -125,7 +126,7 @@ You can use this guide to configure ssh authentication and disable password auth
 
 Firewall security
 Set the default to allow outgoing connections, deny all incoming, allow ssh and node p2p port
-
+```
 sudo ufw default allow outgoing 
 sudo ufw default deny incoming 
 sudo ufw allow ssh/tcp 
@@ -138,3 +139,4 @@ sudo rm -rf /etc/systemd/system/namadad.service
 sudo systemctl daemon-reload
 sudo rm $(which namada)
 sudo rm -rf $HOME/.local/share/namada/shielded-expedition.88f17d1d14
+```
