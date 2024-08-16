@@ -133,6 +133,7 @@ sudo ufw allow ssh/tcp
 sudo ufw allow ${NAMADA_PORT}656/tcp
 sudo ufw enable
 ```
+
 **Delete node**
 ```
 sudo systemctl stop namadad
