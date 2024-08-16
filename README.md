@@ -65,9 +65,11 @@ fi
 **Check Namada version:**
 ```
 namada --version
-🔗 Join-network as Pre-Genesis Validator
-Join-network as Full Nodes or Post-Genesis Validator:
+```
 
+**🔗 Join-network as Pre-Genesis Validator**
+Join-network as Full Nodes or Post-Genesis Validator:
+```
 namada client utils join-network --chain-id $CHAIN_ID
 ```
 
@@ -114,7 +116,7 @@ sudo systemctl restart namadad && sudo journalctl -u namadad -f
 
 **Create and fund wallet**
 Turn your full node into a validator
-``
+```
 Automatic Installation
 source <(curl -s https://itrocket.net/api/namada/autoinstall/)
 Security
